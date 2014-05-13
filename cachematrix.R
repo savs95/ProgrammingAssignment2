@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Same as the mean, it creates special matrix with can set, get , set inverse and set inverse values of a matrix
 
-## Write a short comment describing this function
+## Makes a matirix which allows to reterieve values of a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -21,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Write a short comment describing this function
+## Checks if it already exists (the inverse), if yes, then return same value, else it computes
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
